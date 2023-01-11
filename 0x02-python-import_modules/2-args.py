@@ -7,4 +7,4 @@ if __name__ == "__main__":
         "arguments" if (size) != 1 else "argument", 
         "." if (size) == 0 else ":"))
     for idx, arg in enumerate(uinput):
-        print("{:d}: {:s}".format(idx + 1, argv))
+        print("{:d}: {:s}".format(idx + 1, arg))
